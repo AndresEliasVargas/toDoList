@@ -1,0 +1,51 @@
+{
+    "folders": [
+        {
+            "name": "Personal",
+            "todos": [
+                {
+                    "description": "Estudiar iOS en la noche",
+                    "isComplete": false
+                },
+                {
+                    "description": "Estudiar Android en la noche",
+                    "isComplete": false
+                },
+                {
+                    "description": "Ver Breaking Bad",
+                    "isComplete": true
+                },
+                {
+                    "description": "Ver Stranger Things 3",
+                    "isComplete": true
+                }
+            ]
+        },
+        {
+            "name": "Casa",
+            "todos": [
+                {
+                    "description": "Sacar la basura",
+                    "isComplete": false
+                },
+                {
+                    "description": "Limpiar la caja de arena de los gatos",
+                    "isComplete": false
+                }
+            ]
+        },
+        {
+            "name": "Cocinar",
+			"todos": [
+				{
+					"description": "Preparar la cena de lunes",
+					"isComplete": false
+				},
+				{
+					"description": "Prepara el almuerzo del martes",
+					"isComplete": false
+				}
+			]
+        }
+    ]
+}

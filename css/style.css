@@ -1,0 +1,11 @@
+#mainContainer{
+    height: 100vh;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.pointer:hover{
+    color: var(--info);
+}
