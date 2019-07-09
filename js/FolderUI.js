@@ -13,7 +13,7 @@ class FolderUI {
         this.pcounter = document.createElement('p');
 
         //Apply CSS
-        this.container.classList.add('bg-white');
+        this.container.classList.add('bg-white', 'mb-3', 'py-1', 'pl-3');
 
         //Insert Data
         this.p.innerHTML = this.model.name;
@@ -35,7 +35,7 @@ class FolderUI {
     };
 
     folderOnClick() {
-        console.log(this.model.name);
+        //console.log(this.model.name);
 
         this.clearContainer();
 

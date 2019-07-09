@@ -5,19 +5,19 @@
             "todos": [
                 {
                     "description": "Estudiar iOS en la noche",
-                    "isComplete": false
+                    "isCompleted": false
                 },
                 {
                     "description": "Estudiar Android en la noche",
-                    "isComplete": false
+                    "isCompleted": false
                 },
                 {
                     "description": "Ver Breaking Bad",
-                    "isComplete": true
+                    "isCompleted": true
                 },
                 {
                     "description": "Ver Stranger Things 3",
-                    "isComplete": true
+                    "isCompleted": true
                 }
             ]
         },
@@ -26,11 +26,11 @@
             "todos": [
                 {
                     "description": "Sacar la basura",
-                    "isComplete": false
+                    "isCompleted": false
                 },
                 {
                     "description": "Limpiar la caja de arena de los gatos",
-                    "isComplete": false
+                    "isCompleted": false
                 }
             ]
         },
@@ -39,11 +39,11 @@
 			"todos": [
 				{
 					"description": "Preparar la cena de lunes",
-					"isComplete": false
+					"isCompleted": false
 				},
 				{
 					"description": "Prepara el almuerzo del martes",
-					"isComplete": false
+					"isCompleted": false
 				}
 			]
         }

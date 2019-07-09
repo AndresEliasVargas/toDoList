@@ -13,25 +13,41 @@
 </head>
 
 <body class="container-fluid">
+
     <div id="mainContainer" class="row">
+
         <div id="foldersContainer" class="bg-dark col-4">
-            <div class="row text-white">
+            <div class="row text-white my-3">
                 <div class="col-10">
-                    <h2 class="text-center">
+                    <h2 class="text-center pt-4">
                         ToDo
                     </h2>
                 </div>
                 <div class="col-2">
-                    <p class="pt-2 pointer">
+                    <p class="pointer addTodos display-4" id="addTodos">
                         +
                     </p>
                 </div>
             </div>
         </div>
-        <div id="todosContainer" class="bg-info col-8">
+
+        <div id="todosContainer" class="bg-info col-8 pt-5">
+            <div id="tasksHeaderContainer" class="row">
+                <div class="col-11">
+                    <h2 class="text-center pt-4">
+                        Tasks
+                    </h2>
+                </div>
+                <div class="col-1">
+                    <p class="pointer addTasks display-4" id="addTasks">
+                        +
+                    </p>
+                </div>
+            </div>
             <div id="nonCompleteContainer"></div>
             <div id="completeContainer"></div>
         </div>
+
     </div>
 
     <script src="js/app.js"></script>

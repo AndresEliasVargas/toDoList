@@ -1,11 +1,23 @@
+p{
+    margin-bottom: 0;
+}
+
 #mainContainer{
     height: 100vh;
+}
+
+.flow-root{
+    display: flow-root;
 }
 
 .pointer{
     cursor: pointer;
 }
 
-.pointer:hover{
+.addTodos:hover{
     color: var(--info);
+}
+
+.addTasks:hover{
+    color: var(--white);
 }
